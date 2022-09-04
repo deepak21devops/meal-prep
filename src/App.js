@@ -5,7 +5,7 @@ import {
   initialState,
   MealReducer,
 } from "./Components/ReducerComp/ReducerComp";
-import { useEffect, useReducer, createContext } from "react";
+import { useReducer, createContext } from "react";
 
 export const mealContext = createContext();
 

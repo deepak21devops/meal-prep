@@ -2,7 +2,7 @@ import React, { useState, useContext, useEffect } from "react";
 import "./search.css";
 import { mealContext } from "../../App";
 const Search = () => {
-  const { state, dispatch } = useContext(mealContext);
+  const { dispatch } = useContext(mealContext);
   const [searchItem, setSearchItem] = useState("");
 
   useEffect(() => {

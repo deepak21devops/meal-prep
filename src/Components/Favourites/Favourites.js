@@ -1,9 +1,9 @@
 import React from "react";
-import { useContext, useEffect, useState } from "react";
+import { useContext, useState } from "react";
 import { mealContext } from "../../App";
 import "./favourites.css";
 const Favourites = () => {
-  const { state, dispatch } = useContext(mealContext);
+  const { dispatch } = useContext(mealContext);
   const [id, setId] = useState("");
 
   // console.log(state.localData);
